@@ -1,0 +1,441 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+section,
+small,
+span,
+strike,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block
+}
+
+legend {
+    display: none
+}
+
+ :focus {
+    outline: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+td,
+th {
+    text-align: left;
+    font-weight: 400
+}
+
+a img,
+iframe {
+    border: none
+}
+
+ul {
+    list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    font-family: inherit
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+select {
+    margin: inherit
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: 0 0;
+    cursor: pointer
+}
+
+ol {
+    margin-left: 2em
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+* html .clearfix {
+    height: 1%
+}
+
+.clearfix {
+    display: block
+}
+
+
+/* AQUI EMPIEZAN MIS ESTILOS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(assets/images/header-background-extra.jpg) no-repeat 0 0;
+    background-attachment: fixed;
+    box-shadow: inset 400px 400px 400px 400px rgba(0, 0, 0, 0.85);
+}
+
+.initial-name-image {
+    max-width: 200px;
+    border: 1px solid #c13862;
+    padding: 8px;
+    box-shadow: 6px 1px 24px 12px #514040;
+}
+
+.initial-content {
+    color: white;
+}
+
+.people-name {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.9em;
+}
+
+.specialty {
+    font-family: 'Oswald', sans-serif;
+}
+
+.initial-names,
+.tech-skills {
+    text-align: center;
+    padding: 201px;
+}
+
+.tech-skills-names {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 1.3em;
+}
+
+.tech-skills-box {
+    width: 25em;
+    border: 2px #c13862;
+}
+
+.loading-bar-percentage-one {
+    width: 0;
+    height: 10px;
+    animation: progressone 4s linear infinite;
+    background: #c13862;
+}
+
+.loading-bar-percentage-two {
+    width: 0;
+    height: 10px;
+    animation: progresstwo 4s linear infinite;
+    background: #c13862;
+}
+
+.loading-bar-percentage-three {
+    width: 0;
+    height: 10px;
+    animation: progressthree 4s linear infinite;
+    background: #c13862;
+}
+
+.loading-bar-percentage-four {
+    width: 0;
+    height: 10px;
+    animation: progressfour 4s linear infinite;
+    background: #c13862;
+}
+
+.loading-bar-percentage-five {
+    width: 0;
+    height: 10px;
+    animation: progressfive 4s linear infinite;
+    background: #c13862;
+}
+
+@keyframes progressone {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 48%;
+    }
+}
+
+@keyframes progresstwo {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progressthree {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes progressfour {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 89%;
+    }
+}
+
+@keyframes progressfive {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 84%;
+    }
+}
+
+.specialty {
+    font-size: 2.2em;
+}
+
+.arrow-down {
+    max-width: 50px;
+    height: auto;
+    margin: 0 auto;
+    filter: invert(1);
+}
+
+.second-fund {
+    background: url(assets/images/business-coffe.jpg) no-repeat 0 0;
+    padding: 10%;
+    /* background: linear-gradient(0deg, rgba(6, 23, 40, 1) 0%, rgba(0, 212, 255, 0) 100%); */
+}
+
+.soft-skills {
+    /* background: rgb(43, 30, 30); */
+    background: linear-gradient(0deg, #000000 0%, #aea7a7 100%);
+}
+
+.soft-skill-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.soft-skills-names {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+img.soft-skills-images {
+    max-width: 60px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    filter: invert(1);
+}
+
+.card .card-content {
+    padding: px;
+    border-radius: 0 0 2px 2px;
+    padding-top: 60px;
+}
+
+.projects {
+    background: white;
+}
+
+.projects-title {
+    text-align: center;
+    background: white;
+    padding: 20px;
+}
+
+h2.title-projects {
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p.p-project-dt {
+    padding-bottom: 80px;
+}
+
+.lined-icons {
+    display: flex;
+    color: #c13862;
+}
+
+.projects-logo {
+    width: 20px;
+    height: auto;
+}
+
+a.lined-text {
+    padding-left: 5px;
+    color: #c13862;
+}
+
+.lined-decoration-a,
+.lined-decoration-b,
+.lined-decoration-c,
+.lined-decoration-d {
+    height: 3px;
+    background-color: #c13862;
+    margin-bottom: 16px;
+}
+
+.lined-decoration-a {
+    max-width: 32%;
+}
+
+.lined-decoration-b {
+    max-width: 29%;
+}
+
+.lined-decoration-c {
+    max-width: 26%;
+}
+
+.lined-decoration-d {
+    max-width: 26%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.title-part-one {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 2.3em;
+}
+
+.title-part-two {
+    font-family: 'Reenie Beanie', cursive;
+    color: #c13862;
+    font-size: 1.3em;
+}
+
+.title-part-one-skills {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.3em;
+}
+
+.title-part-two-skills {
+    font-family: 'Reenie Beanie', cursive;
+    color: #c13862;
+    font-size: 1.3em;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 30, 30);
+    ;
+}
