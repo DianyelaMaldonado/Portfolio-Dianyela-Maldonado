@@ -169,6 +169,7 @@
         background: url(assets/images/header-background-extra.jpg) no-repeat 0 0;
         background-attachment: fixed;
         box-shadow: inset 400px 400px 400px 400px rgba(0, 0, 0, 0.85);
+        background-size: cover;
     }
     
     .initial-name-image {
@@ -327,9 +328,10 @@
     }
     
     .second-fund {
-        background: url(assets/images/business-coffe.jpg) no-repeat 0 0;
+        background: url(assets/images/laptop-coffee.jpeg) no-repeat 0 0;
         padding: 10%;
         position: relative;
+        background-size: cover;
     }
     
     .shadow {
