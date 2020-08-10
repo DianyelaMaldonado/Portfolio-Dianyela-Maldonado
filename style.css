@@ -380,7 +380,6 @@
     }
     
     .card .card-content {
-        padding: px;
         border-radius: 0 0 2px 2px;
         padding-top: 60px;
     }
@@ -508,12 +507,18 @@
         .specialty {
             font-size: 2em;
         }
+        .lined-decoration-a{
+            max-width: 61%;
+        }
+        .lined-decoration-b {
+        max-width: 55%;
+        }
+        .lined-decoration-c {
+        max-width: 49%;
+        }
         .lined-decoration-d {
             max-width: 75%;
         }
-        /* img.arrow-move {
-            animation: none;
-        } */
         .img.soft-skills-images {
             max-width: 30px;
         }
