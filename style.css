@@ -423,7 +423,8 @@
     .lined-decoration-a,
     .lined-decoration-b,
     .lined-decoration-c,
-    .lined-decoration-d {
+    .lined-decoration-d,
+    .lined-decoration-e {
         height: 3px;
         background-color: #c13862;
         margin-bottom: 16px;
@@ -446,6 +447,10 @@
         display: flex;
         margin: 0 auto;
         margin-bottom: 90px;
+    }
+
+    .lined-decoration-e{
+        max-width: 33%; 
     }
     
     .title-part-one {
@@ -519,6 +524,9 @@
         .lined-decoration-d {
             max-width: 75%;
         }
+        .lined-decoration-e{
+        max-width: 60%; 
+    }
         .img.soft-skills-images {
             max-width: 30px;
         }
