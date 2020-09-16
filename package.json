@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-dianyela-maldonado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianyelaMaldonado/Portfolio-Dianyela-Maldonado.git"
+  },
+  "author": "Dianyela Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianyelaMaldonado/Portfolio-Dianyela-Maldonado/issues"
+  },
+  "homepage": "https://github.com/DianyelaMaldonado/Portfolio-Dianyela-Maldonado#readme"
+}
